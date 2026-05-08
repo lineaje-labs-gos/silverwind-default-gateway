@@ -1,10 +1,19 @@
 {
   "name": "default-gateway",
-  "version": "4.2.0",
+  "version": "4.2.0-lineaje-01",
   "description": "Get the default network gateway, cross-platform.",
   "author": "silverwind <me@silverwind.io>",
-  "repository": "silverwind/default-gateway",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/silverwind-default-gateway"
+  },
   "license": "BSD-2-Clause",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "scripts": {
     "test": "eslint *.js && node --pending-deprecation --trace-deprecation --throw-deprecation --trace-warnings test.js"
   },
