@@ -1,6 +1,6 @@
 {
   "name": "default-gateway",
-  "version": "4.2.0-lineaje-01",
+  "version": "3.7.3-lineaje-01",
   "description": "Get the default network gateway, cross-platform.",
   "author": "silverwind <me@silverwind.io>",
   "repository": {
@@ -48,5 +48,11 @@
     "gateway",
     "routing",
     "route"
-  ]
+  ],
+  "overrides": {
+    "webpack-dev-middleware": ">=3.7.3-lineaje-01"
+  },
+  "resolutions": {
+    "webpack-dev-middleware": ">=3.7.3-lineaje-01"
+  }
 }
